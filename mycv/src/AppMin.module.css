@@ -1,0 +1,18 @@
+.mainContainer {
+    padding: 10px;
+    background-color: ghostwhite;
+}
+
+.titleName {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+img {
+    width: 100%;
+}
+

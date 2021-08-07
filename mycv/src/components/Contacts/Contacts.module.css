@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow {
+    color: cadetblue;
+}
+
+a {
+    color: black;
+
+}
+
+a:hover {
+    color: cadetblue;
+    transform: translate3d(20px, 0px, 0px);
+    transition-duration: 500ms;
+}
+

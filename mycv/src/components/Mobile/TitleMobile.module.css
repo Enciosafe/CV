@@ -1,0 +1,83 @@
+.title {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    font-size: 60px;
+    padding-left: 10px;
+
+}
+
+
+.pic {
+    position: absolute;
+    color: transparent;
+    z-index: -1;
+}
+
+.text {
+    margin-left: -50px;
+    font-size: 40px;
+    color: cadetblue;
+
+}
+
+
+
+.arrow {
+    cursor: pointer;
+    position: relative;
+    width: 80px;
+    height: 50px;
+    margin: 50%;
+}
+.arrow div {
+    position: relative;
+    top: 20px;
+    width: 160px;
+    height: 10px;
+    background-color: cadetblue;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    left:0;
+    display: block;
+    transform: rotate(90deg);
+    opacity: 60%;
+
+}
+.arrow div::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    top: -11px;
+    right: -8px;
+    background-color: cadetblue;
+    transform: rotate(45deg);
+}
+.arrow div::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    top: 11px;
+    right: -8px;
+    background-color: cadetblue;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+}
+.arrow:hover {
+    animation: arrow 1s linear infinite;
+}
+@keyframes arrow {
+    0% {
+        bottom:0;
+    }
+    50% {
+        bottom:-20px;
+    }
+    100% {
+        bottom:0;
+    }
+}

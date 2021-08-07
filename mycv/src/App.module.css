@@ -1,0 +1,184 @@
+.mainContainer {
+    border: 1px solid cadetblue;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.photo {
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+}
+
+.photo:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+}
+
+.nameTitle {
+    font-family: 'Lexend', sans-serif;
+    font-weight: lighter;
+    font-size: 3.5rem;
+    margin-bottom: 1px;
+    text-align: left;
+}
+
+.profTitle {
+    font-family: 'Lexend', sans-serif;
+    font-weight: lighter;
+    text-decoration: overline;
+    text-align: left;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
+
+.profTitle:hover {
+    color: cadetblue;
+    cursor: pointer;
+}
+
+
+.sidebar {
+    min-width: 300px;
+}
+
+
+.info {
+    margin-left: 30px;
+}
+
+.contactsContainer {
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+.contactsContainer:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.skillsContainer {
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+.skillsContainer:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.contactsTitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Lexend', sans-serif;
+    color: cadetblue;
+    text-align: center;
+}
+
+.skillsTitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Lexend', sans-serif;
+    color: cadetblue;
+    text-align: center;
+}
+
+.aboutMeContainer {
+    margin-top: 150px;
+}
+
+.aboutMeTitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Lexend', sans-serif;
+    color: cadetblue;
+    text-align: center;
+}
+
+.educationContainer {
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+.educationContainer:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.educationTitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Lexend', sans-serif;
+    color: cadetblue;
+    text-align: center;
+}
+
+.langContainer {
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+.langContainer:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.langTitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Lexend', sans-serif;
+    color: cadetblue;
+    text-align: center;
+}
+
+.projContainer {
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+.projContainer:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.projTitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Lexend', sans-serif;
+    color: cadetblue;
+    text-align: center;
+}
+
+.careerContainer {
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+.careerContainer:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.careerTitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Lexend', sans-serif;
+    color: cadetblue;
+    text-align: center;
+}
