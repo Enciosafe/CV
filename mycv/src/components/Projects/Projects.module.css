@@ -1,0 +1,11 @@
+
+.list {
+    margin: 5px;
+}
+
+
+.item:hover {
+    color: cadetblue;
+    transform: translate3d(20px, 0px, 0px);
+    transition-duration: 500ms;
+}

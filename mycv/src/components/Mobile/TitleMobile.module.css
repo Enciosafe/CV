@@ -45,6 +45,7 @@
     transform: rotate(90deg);
     opacity: 60%;
 
+
 }
 .arrow div::after {
     content: '';
@@ -81,3 +82,4 @@
         bottom:0;
     }
 }
+

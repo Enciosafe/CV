@@ -16,7 +16,6 @@ let widerScreenWidth = window.matchMedia("(max-width: 450px)");
 
 
 
-
 function App() {
     return <>
         {widerScreenWidth.matches && <TitleMobile/>}
@@ -32,7 +31,7 @@ function App() {
            <Skills />
        </div>
     </div>
-    <div className={s.info}>
+    <div className={widerScreenWidth.matches ? null : s.info}>
       <h1 className={s.nameTitle}>Matvieiev Stanislav</h1>
       <h2 className={s.profTitle}>FullStack Developer</h2>
         <div className={s.aboutMeContainer}>
